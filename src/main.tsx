@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App'
-import ScrollToTop from './components/common/ScrollToTop';
+import ScrollToTop from './hooks/ScrollToTop';
 import About from './components/pages/about/About';
 import AppDesign from './components/pages/app-design/AppDesign';
 import Contact from './components/pages/contact/Contact';
