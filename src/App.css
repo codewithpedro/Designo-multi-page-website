@@ -477,6 +477,7 @@ footer .location-contact-socials .socials i:hover {
 .home .hero {
   padding-top: 80px;
   background-color: hsl(var(--clr-peach));
+  overflow-x: hidden;
 }
 
 @media (min-width: 750px) {
@@ -576,14 +577,14 @@ footer .location-contact-socials .socials i:hover {
 
 .home .projects .project {
   position: relative;
-  width: 327px;
+  max-width: 300px;
   height: 250px;
   margin-inline: auto;
 }
 
 @media (min-width: 750px) {
   .home .projects .project {
-    width: 700px;
+    max-width: 700px;
   }
 }
 
@@ -594,12 +595,12 @@ footer .location-contact-socials .socials i:hover {
   }
 
   .home .projects .project {
-    width: 450px;
+    max-width: 450px;
   }
 
   .home .projects>.project {
     height: 550px;
-    width: 600px;
+    max-width: 600px;
     margin-right: 50px;
   }
 }
