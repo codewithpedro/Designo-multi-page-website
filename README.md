@@ -23,7 +23,7 @@ The challenge of the Designo multi-page website is to code a seven page website.
 
 ### Screenshot
 
-![](./designo-frontpage.jpg)
+![](./designo-frontpage.JPG)
 
 ### Links
 
